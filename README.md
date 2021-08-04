@@ -1,10 +1,8 @@
-- 👋 Hi, I’m @Sivakorn-EM
-- 👀 I’m interested in data analytics, and a little bit of programming. 
-- 🌱 I’m currently leveling up my computer science knowledge daily. 
-- 💞️ I’m looking to collaborate on projects to improve productivity/ create value from data in modeling world. 
-- 📫 How to reach me --> sivakorn.chongfeungprinya@exxonmobil.com
+#This code creates two output .csv files to fill up the MV SQL DB Xref Bulk Uploader directly from RunROMEO XREF_Masters tab.
 
-<!---
-Sivakorn-EM/Sivakorn-EM is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+#Input files:
+## Filled RunROMEO XREF_Masters tab. -- Rows containing "*" or "Select" in the Alias column
+##Unit_Dict: containing a dictionary to map unit to type of units.
+##PIMS ROM map: contains a dictionary to map ROMEO tags to PIMS tags.
+
+#Output files: please copy the .csv files into the template yourself. This will allow you to double check that all things are right.
