@@ -1,4 +1,4 @@
-#This code creates two output .csv files to fill up the MV SQL DB Xref Bulk Uploader directly from RunROMEO XREF_Masters tab.
+#This code (RR_to_Fill.py) creates two output .csv files to fill up the MV SQL DB Xref Bulk Uploader directly from RunROMEO XREF_Masters tab.
 
 #Input files:
 ##Filled RunROMEO XREF_Masters tab. -- Rows containing "*" or "Select" in the Alias column \
